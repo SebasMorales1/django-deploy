@@ -7,8 +7,8 @@
   }],
   "routes": [
       {
-          "src": "/(.*)",
-          "dest": "mysite/wsgi.py"
+        "src": "build_files.sh",
+        "dest": "mysite/wsgi.py"
       }
   ]
 }
